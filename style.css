@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: 1px solid rgb(251, 136, 60);
+}
+
+body {
+  background: linear-gradient(to right,  rgb(255, 223, 43),rgb(244, 174, 23),rgb(255, 102, 0));
+  height: 100vh;
+}
+
+input {
+background-color: rgb(250, 186, 76);
+padding: 20px;
+border-left: none;
+border-right: none;
+border-top: none;
+border-bottom: solid 1px rgb(255, 102, 0);
+height: 40px;
+width: 350px;
+font-size: 20px;
+display: block;
+margin: auto;
+}
+
+.search-container {
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+}
+
+ul {
+  width: 350px;
+  display: block;
+  margin: auto;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+ul li {
+  padding: 4px 18px;
+}
+
+ul li:hover {
+  background-color: rgb(255, 102, 0);
+  cursor: pointer;
+}
